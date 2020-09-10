@@ -1,12 +1,16 @@
 import React from "react";
-import { mainWrapper } from "./App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-const App = () => {
+import MainContainer from "./Containers/Main/MainContainer";
+
+function App() {
   return (
-    <div className={mainWrapper}>
-      <h1>Hello, Webpack!!! with React</h1>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={MainContainer} />
+      </Switch>
+    </BrowserRouter>
   );
-};
+}
 
 export default App;
