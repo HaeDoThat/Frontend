@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectViewer from "../../../Components/ProjectViewer/ProjectViewer";
+import ProjectViewer from "../../../Components/Main/ProjectViewer/ProjectViewer";
 
 function ProjectViewerContainer() {
   return <ProjectViewer />;

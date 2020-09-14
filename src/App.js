@@ -2,12 +2,14 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import MainContainer from "./Containers/Main/MainContainer";
+import LoginContainer from "./Containers/Login/LoginContainer";
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={MainContainer} />
+        <Route path="/" component={MainContainer} exact />
+        <Route path="/login" component={LoginContainer} exact />
       </Switch>
     </BrowserRouter>
   );
