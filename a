@@ -1,0 +1,41 @@
+[33mcommit 953aac2b8da6c8b6b9ca591d2927d2180c928009[m[33m ([m[1;36mHEAD -> [m[1;32mdevelopment[m[33m)[m
+Author: Sonwanseo <sonwanseo@gmail.com>
+Date:   Mon Sep 14 20:05:23 2020 +0900
+
+    [CREATE] Register Page Publishing
+
+[33mcommit 5dc2e2cb069de56570d9163894529e46e87e5576[m[33m ([m[1;31morigin/development[m[33m, [m[1;32mfeature/register[m[33m)[m
+Author: Sonwanseo <sonwanseo@gmail.com>
+Date:   Mon Sep 14 09:09:25 2020 +0900
+
+    [REMOVE] file send mistake
+
+[33mcommit f42a2400dad6c3e8ceeb0dd9e26e83551bc744bc[m[33m ([m[1;31morigin/feature/main[m[33m, [m[1;32mfeature/main[m[33m)[m
+Author: Sonwanseo <sonwanseo@gmail.com>
+Date:   Mon Sep 14 09:07:32 2020 +0900
+
+    [CREATE] Login Page Publishing
+
+[33mcommit a5b6fd5ff160324397f00d29a27e9a9d53f72cc6[m[33m ([m[1;32mfeature/login[m[33m)[m
+Author: Sonwanseo <sonwanseo@gmail.com>
+Date:   Thu Sep 10 14:10:40 2020 +0900
+
+    [ADD] Main Page Publishing
+
+[33mcommit d6a900579347fd589e82295b3afb6864adaa760e[m
+Author: Sonwanseo <sonwanseo@gmail.com>
+Date:   Thu Sep 10 13:59:48 2020 +0900
+
+    [ADD] main page publishing
+
+[33mcommit f8cd266c6a4c183c355e23d8864ab02754c509c0[m
+Author: Sonwanseo <sonwanseo@gmail.com>
+Date:   Thu Sep 10 13:55:58 2020 +0900
+
+    [MODIFY] remove body margin
+
+[33mcommit 6444863b1666f4387b2eca17ad58be5722caa864[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Sonwanseo <sonwanseo@gmail.com>
+Date:   Fri Sep 4 13:25:20 2020 +0900
+
+    [ADD] Project preferences
