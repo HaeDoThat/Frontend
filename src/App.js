@@ -1,12 +1,20 @@
 import React from "react";
-import { mainWrapper } from "./App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-const App = () => {
+import MainContainer from "./Containers/Main/MainContainer";
+import LoginContainer from "./Containers/Login/LoginContainer";
+import RegisterContainer from "./Containers/Register/RegisterContainer";
+
+function App() {
   return (
-    <div className={mainWrapper}>
-      <h1>Hello, Webpack!!! with React</h1>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={MainContainer} exact />
+        <Route path="/login" component={LoginContainer} exact />
+        <Route path="/register" component={RegisterContainer} exact />
+      </Switch>
+    </BrowserRouter>
   );
-};
+}
 
 export default App;
