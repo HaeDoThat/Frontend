@@ -11,7 +11,7 @@ function InputBox(props) {
           <S.Input
             name="email"
             onChange={props.changeInput}
-            value={props.loginForm.id || ""}
+            value={props?.loginForm?.id || ""}
           />
         </S.InputWrapper>
         <S.InputWrapper>
@@ -19,7 +19,7 @@ function InputBox(props) {
           <S.Input
             name="password"
             onChange={props.changeInput}
-            value={props.loginForm.password || ""}
+            value={props?.loginForm?.password || ""}
           />
         </S.InputWrapper>
         <S.LinkDiv>

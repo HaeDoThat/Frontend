@@ -12,7 +12,7 @@ function LoginContainer() {
   const submitInput = async e => {
     e.preventDefault();
     try {
-      const res = await axios.post("", {
+      const res = axios.post("", {
         email: loginForm.email,
         password: loginForm.password,
       });

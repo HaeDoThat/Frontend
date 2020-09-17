@@ -12,7 +12,7 @@ function Header() {
             <S.Link href="/login">로그인</S.Link>
           </S.LinkDiv>
           <S.LinkDiv>
-            <S.Link href="//google.com">회원가입</S.Link>
+            <S.Link href="/register">회원가입</S.Link>
           </S.LinkDiv>
         </S.LinkWrapper>
       </S.Wrapper>

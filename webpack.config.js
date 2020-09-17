@@ -1,11 +1,13 @@
-const webpack = require("webpack");
+const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const port = 3000;
 
 module.exports = {
   mode: "development",
-  entry: "./src/index.js",
+  entry: {
+    app: ["babel-polyfill", "./src/index.js"],
+  },
   output: {
     path: __dirname + "/dist",
     filename: "bundle.[hash].js",
@@ -30,6 +32,18 @@ module.exports = {
             loader: "css-loader",
             options: {
               modules: true,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(jpg|png|jpeg|bmp|gif|svg)?$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[path][name].[ext]",
+              context: "src/",
             },
           },
         ],
