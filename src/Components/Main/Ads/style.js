@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { MdArrowForward } from "react-icons/md";
 
-export const AdsContainer = styled.div`
+export const Container = styled.div`
   width: 100%;
   height: 350px;
   background-color: #111111;
@@ -9,7 +9,7 @@ export const AdsContainer = styled.div`
   justify-content: center;
 `;
 
-export const AdsMainWrapper = styled.div`
+export const MainWrapper = styled.div`
   width: 1200px;
   height: 350px;
   display: flex;
@@ -17,7 +17,7 @@ export const AdsMainWrapper = styled.div`
   z-index: 50;
 `;
 
-export const AdsLeftWrapper = styled.div`
+export const LeftWrapper = styled.div`
   width: 300px;
   height: 350px;
   color: white;
@@ -25,7 +25,7 @@ export const AdsLeftWrapper = styled.div`
   display: flex;
 `;
 
-export const AdsLeftBox = styled.div`
+export const LeftBox = styled.div`
   margin-left: 50px;
   margin-top: 50px;
   display: flex;
@@ -39,7 +39,7 @@ export const AdsLeftBox = styled.div`
   align-items: center;
 `;
 
-export const AdsRightBox = styled.div`
+export const RightBox = styled.div`
   margin: 0;
   display: flex;
   width: 120px;
@@ -57,12 +57,12 @@ export const AdsRightBox = styled.div`
   z-index: 100;
 `;
 
-export const AdsRightWrapper = styled.div`
+export const RightWrapper = styled.div`
   width: 900px;
   height: 350px;
 `;
 
-export const AdsTitle = styled.h2`
+export const Title = styled.h2`
   margin: 0;
   margin-top: 50px;
   margin-left: 100px;
@@ -71,7 +71,7 @@ export const AdsTitle = styled.h2`
   width: 450px;
 `;
 
-export const AdsIntroduction = styled.p`
+export const Introduction = styled.p`
   font-weight: lighter;
   color: white;
   font-size: 12px;
@@ -82,7 +82,7 @@ export const AdsIntroduction = styled.p`
   left: 100px;
 `;
 
-export const AdsButton = styled.div`
+export const Button = styled.div`
   display: flex;
   width: 200px;
   height: 50px;
@@ -98,7 +98,7 @@ export const AdsButton = styled.div`
   left: 600px;
 `;
 
-export const AdsArrowIcon = styled(MdArrowForward)`
+export const ArrowIcon = styled(MdArrowForward)`
   position: relative;
   left: 37px;
   font-size: 25px;

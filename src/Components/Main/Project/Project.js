@@ -6,22 +6,18 @@ const img =
 
 function Project() {
   return (
-    <S.ProjectMainWrapper>
-      <S.ProjectImage src={img} />
-      <S.ProjectIntroductionWrapper>
-        <S.ProjectIntroductionLeftWrapper>
-          <S.ProjectIntroductionTitle>
-            식물 관찰 일지
-          </S.ProjectIntroductionTitle>
-          <S.ProjectIntroductionLeader>일생</S.ProjectIntroductionLeader>
-        </S.ProjectIntroductionLeftWrapper>
-        <S.ProjectIntroductionRightWrapper>
-          <S.ProjectIntroductionMembers>
-            참여자 7명
-          </S.ProjectIntroductionMembers>
-        </S.ProjectIntroductionRightWrapper>
-      </S.ProjectIntroductionWrapper>
-    </S.ProjectMainWrapper>
+    <S.MainWrapper>
+      <S.Image src={img} />
+      <S.IntroductionWrapper>
+        <S.IntroductionLeftWrapper>
+          <S.IntroductionTitle>식물 관찰 일지</S.IntroductionTitle>
+          <S.IntroductionLeader>일생</S.IntroductionLeader>
+        </S.IntroductionLeftWrapper>
+        <S.IntroductionRightWrapper>
+          <S.IntroductionMembers>참여자 7명</S.IntroductionMembers>
+        </S.IntroductionRightWrapper>
+      </S.IntroductionWrapper>
+    </S.MainWrapper>
   );
 }
 

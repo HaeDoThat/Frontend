@@ -3,20 +3,20 @@ import * as S from "./style";
 
 function Header() {
   return (
-    <S.HeaderContainer>
-      <S.HeaderWrapper>
-        <S.HeaderLogo>HaeDoThat</S.HeaderLogo>
-        <S.HeaderSearchBox />
-        <S.HeaderLinkWrapper>
-          <S.HeaderLinkDiv>
-            <S.HeaderLink href="/login">로그인</S.HeaderLink>
-          </S.HeaderLinkDiv>
-          <S.HeaderLinkDiv>
-            <S.HeaderLink href="//google.com">회원가입</S.HeaderLink>
-          </S.HeaderLinkDiv>
-        </S.HeaderLinkWrapper>
-      </S.HeaderWrapper>
-    </S.HeaderContainer>
+    <S.Container>
+      <S.Wrapper>
+        <S.Logo>HaeDoThat</S.Logo>
+        <S.SearchBox />
+        <S.LinkWrapper>
+          <S.LinkDiv>
+            <S.Link href="/login">로그인</S.Link>
+          </S.LinkDiv>
+          <S.LinkDiv>
+            <S.Link href="//google.com">회원가입</S.Link>
+          </S.LinkDiv>
+        </S.LinkWrapper>
+      </S.Wrapper>
+    </S.Container>
   );
 }
 

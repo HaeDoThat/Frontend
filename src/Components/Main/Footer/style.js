@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterContainer = styled.div`
+export const Container = styled.div`
   width: 100%;
   height: 250px;
   background-color: #f2f2f2;
@@ -8,45 +8,45 @@ export const FooterContainer = styled.div`
   justify-content: center;
 `;
 
-export const FooterMainWrapper = styled.div`
+export const MainWrapper = styled.div`
   width: 1200px;
   height: 250px;
 `;
 
-export const FooterFunctionsDiv = styled.div`
+export const FunctionsDiv = styled.div`
   width: 1180px;
   height: 60px;
   padding-left: 20px;
   padding-top: 40px;
 `;
 
-export const FooterFunctions = styled.h2`
+export const Functions = styled.h2`
   display: inline;
 `;
 
-export const FooterDividingLine = styled.div`
+export const DividingLine = styled.div`
   border: 0.3px solid #d6d6d6;
   display: inline;
   margin: 0 20px;
 `;
 
-export const FooterPolicyDiv = styled.div`
+export const PolicyDiv = styled.div`
   width: 100%;
   height: 50px;
 `;
 
-export const FooterPolicy = styled.p`
+export const Policy = styled.p`
   display: inline;
   color: #a8a8a8;
 `;
 
-export const FooterLocationDiv = styled.div`
+export const LocationDiv = styled.div`
   width: 100%;
   height: 6px;
   padding-top: 40px;
 `;
 
-export const FooterLocation = styled.p`
+export const Location = styled.p`
   display: inline;
   color: #a8a8a8;
 `;

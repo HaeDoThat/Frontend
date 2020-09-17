@@ -3,9 +3,9 @@ import * as S from "./style";
 
 const Header = () => {
   return (
-    <S.HeaderWrapper>
-      <S.HeaderLoginLink href="/login">Sign in</S.HeaderLoginLink>
-    </S.HeaderWrapper>
+    <S.Wrapper>
+      <S.LoginLink href="/login">Sign in</S.LoginLink>
+    </S.Wrapper>
   );
 };
 

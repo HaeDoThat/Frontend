@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderWrapper = styled.div`
+export const Wrapper = styled.div`
   width: calc(100% - 30px);
   height: 30px;
   padding-top: 15px;
@@ -9,7 +9,7 @@ export const HeaderWrapper = styled.div`
   justify-content: flex-end;
 `;
 
-export const HeaderLoginLink = styled.a`
+export const LoginLink = styled.a`
   font-size: 18px;
   text-decoration: none;
   color: #000000;

@@ -4,31 +4,29 @@ import Project from "../Project/Project";
 
 function ProjectViewer() {
   return (
-    <S.ProjectViewerContainer>
-      <S.ProjectViewerMainWrapper>
-        <S.ProjectViewerTopWrapper>
-          <S.ProjectViewerIcon size={20} />
-          <S.ProjectViewerTitle>따끈따끈한 프로젝트!</S.ProjectViewerTitle>
-          <S.ProjectViewerSummary>
-            방금 생긴 새 프로젝트에 참여하세요
-          </S.ProjectViewerSummary>
-        </S.ProjectViewerTopWrapper>
-        <S.ProjectViewerBodyWrapper>
-          <S.ProjectViewerBodyTopWrapper>
+    <S.Container>
+      <S.MainWrapper>
+        <S.TopWrapper>
+          <S.Icon size={20} />
+          <S.Title>따끈따끈한 프로젝트!</S.Title>
+          <S.Summary>방금 생긴 새 프로젝트에 참여하세요</S.Summary>
+        </S.TopWrapper>
+        <S.BodyWrapper>
+          <S.BodyTopWrapper>
             <Project />
             <Project />
             <Project />
             <Project />
-          </S.ProjectViewerBodyTopWrapper>
-          <S.ProjectViewerBodyBottomWrapper>
+          </S.BodyTopWrapper>
+          <S.BodyBottomWrapper>
             <Project />
             <Project />
             <Project />
             <Project />
-          </S.ProjectViewerBodyBottomWrapper>
-        </S.ProjectViewerBodyWrapper>
-      </S.ProjectViewerMainWrapper>
-    </S.ProjectViewerContainer>
+          </S.BodyBottomWrapper>
+        </S.BodyWrapper>
+      </S.MainWrapper>
+    </S.Container>
   );
 }
 

@@ -3,28 +3,28 @@ import * as S from "./style";
 
 function Footer() {
   return (
-    <S.FooterContainer>
-      <S.FooterMainWrapper>
-        <S.FooterFunctionsDiv>
-          <S.FooterFunctions>고객센터</S.FooterFunctions>
-          <S.FooterDividingLine />
-          <S.FooterFunctions>공지사항</S.FooterFunctions>
-        </S.FooterFunctionsDiv>
-        <S.FooterPolicyDiv>
-          <S.FooterPolicy>개인정보처리방침</S.FooterPolicy>
-          <S.FooterDividingLine />
-          <S.FooterPolicy>저작권보호정책</S.FooterPolicy>
-          <S.FooterDividingLine />
-          <S.FooterPolicy>이용약관</S.FooterPolicy>
-        </S.FooterPolicyDiv>
-        <S.FooterLocationDiv>
-          <S.FooterLocation>
+    <S.Container>
+      <S.MainWrapper>
+        <S.FunctionsDiv>
+          <S.Functions>고객센터</S.Functions>
+          <S.DividingLine />
+          <S.Functions>공지사항</S.Functions>
+        </S.FunctionsDiv>
+        <S.PolicyDiv>
+          <S.Policy>개인정보처리방침</S.Policy>
+          <S.DividingLine />
+          <S.Policy>저작권보호정책</S.Policy>
+          <S.DividingLine />
+          <S.Policy>이용약관</S.Policy>
+        </S.PolicyDiv>
+        <S.LocationDiv>
+          <S.Location>
             (34111)대전광역시 유성구 가정북로 76(장동 23-9)
             대덕소프트웨어마이스터고등학교
-          </S.FooterLocation>
-        </S.FooterLocationDiv>
-      </S.FooterMainWrapper>
-    </S.FooterContainer>
+          </S.Location>
+        </S.LocationDiv>
+      </S.MainWrapper>
+    </S.Container>
   );
 }
 

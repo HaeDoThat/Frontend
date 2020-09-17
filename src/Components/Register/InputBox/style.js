@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const InputBoxWrapper = styled.div`
+export const Wrapper = styled.div`
   width: 100%;
   height: 686px;
   display: flex;
@@ -8,7 +8,7 @@ export const InputBoxWrapper = styled.div`
   padding-top: 20px;
 `;
 
-export const InputBoxContentWrapper = styled.div`
+export const ContentWrapper = styled.div`
   width: 60%;
   height: 80%;
   display: flex;
@@ -16,11 +16,11 @@ export const InputBoxContentWrapper = styled.div`
   align-items: center;
 `;
 
-export const InputBoxTitle = styled.h1`
+export const Title = styled.h1`
   margin-bottom: 35px;
 `;
 
-export const InputBoxInnerDiv = styled.div`
+export const InnerDiv = styled.div`
   height: 40%;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ export const InputBoxInnerDiv = styled.div`
   margin-bottom: 30px;
 `;
 
-export const InputBoxInput = styled.input`
+export const Input = styled.input`
   width: 535px;
   height: 40px;
   border: 1px solid #707070;
@@ -36,7 +36,7 @@ export const InputBoxInput = styled.input`
   padding-left: 15px;
 `;
 
-export const InputBoxButton = styled.button`
+export const Button = styled.button`
   width: 550px;
   height: 40px;
   background-color: #112987;
@@ -47,14 +47,14 @@ export const InputBoxButton = styled.button`
   font-size: 20px;
 `;
 
-export const InputBoxDividingLine = styled.div`
+export const DividingLine = styled.div`
   width: 550px;
   height: 1px;
   background-color: #d4cece;
   margin-bottom: 50px;
 `;
 
-export const InputBoxGoogleRegister = styled.button`
+export const GoogleRegister = styled.button`
   width: 550px;
   height: 40px;
   background-color: #d8d8d8;
