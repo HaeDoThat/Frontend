@@ -1,2 +1,2 @@
 # Frontend
-DSM-DIS Frontend Repository
+UP HaeDoThat Frontend Repository
