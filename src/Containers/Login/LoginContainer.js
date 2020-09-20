@@ -12,15 +12,15 @@ function LoginContainer() {
   const submitInput = async e => {
     e.preventDefault();
     try {
-      const res = axios.post("", {
+      const res = await axios.post("http://3.34.138.65/user/auth", {
         email: loginForm.email,
         password: loginForm.password,
       });
       window.alert(res.message);
-      if (res == 200) {
+      if (res === 200) {
         localStorage.setItem("access_token", res.access_token);
       } else {
-        setLoginForm({ id: "", pw: "" });
+        setLoginForm({ email: "", password: "" });
       }
     } catch (err) {
       console.error(err);
