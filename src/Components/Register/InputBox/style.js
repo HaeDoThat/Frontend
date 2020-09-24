@@ -20,8 +20,8 @@ export const Title = styled.h1`
   margin-bottom: 35px;
 `;
 
-export const InnerDiv = styled.div`
-  height: 40%;
+export const InnerForm = styled.form`
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
