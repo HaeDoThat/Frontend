@@ -4,7 +4,7 @@ import axios from "axios";
 import Header from "../../Components/Register/Header/Header";
 import InputBox from "../../Components/Register/InputBox/InputBox";
 
-const RegisterContainer = () => {
+const RegisterContainer = ({ history }) => {
   const [registerForm, setRegisterForm] = useState({
     name: "",
     email: "",
@@ -19,14 +19,24 @@ const RegisterContainer = () => {
   const submitInput = async e => {
     e.preventDefault();
 
+    if (registerForm.password !== registerForm.confirmPassword) {
+      window.alert("비밀번호가 다릅니다.");
+    }
+
     try {
-      const res = await axios.post("", {
-        userName: registerForm.name,
-        userEmail: registerForm.email,
+      const res = await axios.post("http://3.34.138.65/user", {
+        name: registerForm.name,
+        email: registerForm.email,
         password: registerForm.password,
       });
+      if (res.status === 201) {
+        window.alert("회원가입에 성공하셨습니다.");
+        history.push("/login");
+      } else {
+        window.alert("201이 아님");
+      }
     } catch (err) {
-      console.error(err);
+      alert(err.response.data.message);
     }
   };
 
